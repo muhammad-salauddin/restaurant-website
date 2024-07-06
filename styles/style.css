@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+.first-p {
+    width: 1920px;
+    height: 919px;
+    background-image: linear-gradient(0deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%), url("../../assets/hero-bg.png");
+    background-size: cover; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+}
+.fp-atxt {
+    position: absolute;
+    height: 393px;
+    width: 1023px;
+}
+.fp-subt {
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.8;
+}
+.fp-title {
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.fp-text {
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+}
+.fp-btn-cont {
+    text-align: center;
+}
+.fp-btn {
+    border-radius: 8px; 
+    border: none;
+    background: rgb(82, 195, 3);
+    color: white;
+    padding: 21px 32px;
+    margin: 32px 0px;
+    width: 279px;
+    height: 66px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    cursor: pointer;
+}
+.fp-btn:hover {
+    opacity: 0.9;
+}
+.card-box {
+    position: relative;
+    width: 1920px;
+    height: 1222px;
+    margin-top: 50px;
+}
+
+.cd-box-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cd-box-all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.cd-box {
+    position: static;
+    width: 1320px;
+    height: fit-content;
+    border: 2px dashed lightgray;
+    margin 64px 0px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cd-box-food {
+    position: static;
+    width: 1320px;
+    height: 743px;
+    margin 64px 0px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sec-subt {
+    text-align: center;
+    position: relative;
+    opacity: 0.6;
+    font-family: Work Sans;
+    font-size: 24px;
+    color: black;
+    font-weight: 500;
+    line-height: 28px; 
+}
+.sec-title {
+    position: relative;
+    width: 691px;
+    height: 128px;
+    text-align: center;
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+}
+.card1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+.pizza {
+    position: static;
+    width: 424px;
+    height: 283px;
+    flex: none;
+    margin: 32px 0px;
+    border-radius: 16px;
+}
+.cd1-btn-cont {
+    display: flex;
+    justify-content: center;
+}
+.cd1-btn {
+    background-color: rgba(82, 195, 3, 0.15);
+    position: static;
+    width: 187px;
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 32px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+.cd1-title {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 14px 32px 14px 32px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 10px;
+color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 24px;
+font-weight: 600;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: center;
+}
+.cd1-h2 {
+    text-align: center;
+    margin: 24px 0px;
+    font-size: 40px ;
+    font-weight: 600;
+    font-family: Work Sans;
+}
+.cd1-txt-cont {
+    display: flex;
+    justify-content: center;
+}
+.cd1-txt {
+    width: 324px;
+    height: 56px;
+    margin: 24px 0px;
+    text-align: center;
+}
+
+.card2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+.kacchi {
+    position: static;
+    width: 424px;
+    height: 283px;
+    flex: none;
+    margin: 32px 0px;
+    border-radius: 16px;
+}
+.cd2-btn-cont {
+    display: flex;
+    justify-content: center;
+}
+.cd2-btn {
+    background-color: rgba(82, 195, 3, 0.15);
+    position: static;
+    width: 187px;
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 32px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+.cd2-title {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 14px 32px 14px 32px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 10px;
+color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 24px;
+font-weight: 600;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: center;
+}
+.cd2-h2 {
+    text-align: center;
+    margin: 24px 0px;
+    font-size: 40px ;
+    font-weight: 600;
+    font-family: Work Sans;
+}
+.cd2-txt-cont {
+    display: flex;
+    justify-content: center;
+}
+.cd2-txt {
+    width: 324px;
+    height: 56px;
+    margin: 24px 0px;
+    text-align: center;
+}
+
+.card3 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+.burger {
+    position: static;
+    width: 424px;
+    height: 283px;
+    flex: none;
+    margin: 32px 0px;
+    border-radius: 16px;
+}
+.cd3-btn-cont {
+    display: flex;
+    justify-content: center;
+}
+.cd3-btn {
+    background-color: rgba(82, 195, 3, 0.15);
+    position: static;
+    width: 187px;
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 32px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+.cd3-title {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 14px 32px 14px 32px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 10px;
+color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 24px;
+font-weight: 600;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: center;
+}
+.cd3-h2 {
+    text-align: center;
+    margin: 24px 0px;
+    font-size: 40px ;
+    font-weight: 600;
+    font-family: Work Sans;
+}
+.cd3-txt-cont {
+    display: flex;
+    justify-content: center;
+}
+.cd3-txt {
+    width: 324px;
+    height: 56px;
+    margin: 24px 0px;
+    text-align: center;
+}
+
+.cd-box-btn-cont {
+color: white;
+border: none;
+background-color: rgb(82, 195, 3);
+position: static;
+width: 212px;
+height: 65px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+border-radius: 8px;
+cursor: pointer;
+}
+.cd-box-btn {
+color: rgb(255, 255, 255);s
+font-family: Work Sans;
+font-size: 20px;
+text-align: center;
+}
