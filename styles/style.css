@@ -359,3 +359,169 @@ font-family: Work Sans;
 font-size: 20px;
 text-align: center;
 }
+
+.about-us {
+    position: relative;
+width: 1920px;
+height: 671px;
+}
+
+.au-img1 {
+position: absolute;
+width: 960px; 
+height: 671px;
+left: 0;
+top: 0;
+background-image: url("../image/foods.png");
+}
+.au-img1 > p {
+    display: none;
+}
+.au-rt {
+    /* Frame 21 */
+position: absolute;
+width: 830px;
+height: 399px;
+left: 1037px;
+right: 53px;
+top: 136px;
+bottom: 136px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+padding: 0px;
+}
+.au-h1-cont {
+    /* We always make sure to provide you with good food */
+position: static;
+width: 805px;
+height: 128px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 24px 0px;
+color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 48px;
+font-weight: 700;
+line-height: 64px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.au-p1-cont {
+    /* Don’t miss a thing! Subscribe to our newsletter */
+position: static;
+width: 536px;
+height: 29px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 24px 0px;
+}
+.au-p1 {
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 24px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: left;
+opacity: 0.8;
+}
+.au-bar {
+    /* Frame 18 */
+position: static;
+width: 1320px;
+height: 98px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 30px 10px 30px 10px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 48px 0px;
+box-sizing: border-box;
+border-bottom: 1px solid rgba(16, 16, 16, 0.2);
+border-top: 1px solid rgba(16, 16, 16, 0.2);
+}
+
+.au-flw-cont {
+    /* Follow Us On */
+position: static;
+width: 207px;
+height: 38px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 30px 10px 30px 10px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 10px;
+}
+.au-flw {
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 32px;
+font-weight: 600;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: center;
+}
+.au-icon {
+    /* Frame 20 */
+position: static;
+width: 260.23px;
+height: 40px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 32px 0px;
+}
+.au-icon > span img {
+    width: 50px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+}
